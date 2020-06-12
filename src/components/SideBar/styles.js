@@ -10,8 +10,8 @@ align-items: center;
 text-align: center;
 width: 20rem;
 height: 100vh;
-box-shadow: 0 0 100px rgba(195, 7, 63, 0.2);
-border-right: 1px solid #c3073f;
+box-shadow: 0 0 100px var(--sideBarBoxShadow);
+border-right: 1px solid var(--redLight);
 border-radius: 2rem;
-background:#19191a;
+background:var(--sideBarBackground);
 `

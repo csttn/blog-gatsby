@@ -3,14 +3,14 @@ import styled from "styled-components"
 
 
 export const PostHeader = styled.header`
-  color: #feffff;
+  color: var(--postHeaderColor);
   margin: auto;
   max-width: 70rem;
   padding: 5rem 5rem 0;
 `
 
 export const PostTitle = styled.h1`
-    color: #c3073f;
+    color: var(--postTitleColor);
   font-size: 4rem;
   font-weight: 700;
   padding: 0 1.4rem;
@@ -18,14 +18,14 @@ export const PostTitle = styled.h1`
 `
 
 export const PostDescription = styled.h2`
-    color: #4e4e50;
+  color: var(--postDescription);
   font-size: 2rem;
   font-weight: 200;
   padding: 0 1.4rem;
 `
 
 export const PostDate = styled.p`
-color: #950740;
+color: var(--postDate);
   font-size: 1.1rem;
   font-weight: 100;
   padding: 0 1.4rem;
@@ -45,7 +45,7 @@ export const MainContent = styled.section`
   .tags,
   iframe,
   .button-post {
-    color: #c5c6c7;
+    color: var(--postMainContentDescription);
     font-size: 1.25rem;
     font-weight: 300;
     line-height: 1.7;
@@ -90,13 +90,12 @@ export const MainContent = styled.section`
     width: 100%;
   }
   blockquote {
-    color: #66fcf1;
-    border-left: 0.3rem solid #950740;
+    border-left: 0.3rem solid var(--red);
     padding: 0 1.875rem;
     margin: 3.125rem auto;
   }
   hr {
-    border: 1px solid #950740;
+    border: 1px solid var(--red);
     margin: 3rem auto;
   }
   #twitter-widget-0,
@@ -148,7 +147,7 @@ export const MainContent = styled.section`
   }
   .gatsby-highlight {
     padding: 0 1.6rem 1.6rem;
-    background-color: #c5c6c7;
+    background-color: var(--gray);;
     border-radius: 0.3em;
     margin: 0.5em 0;
     padding: 1em;
@@ -160,12 +159,12 @@ export const MainContent = styled.section`
     margin: 1rem auto !important;
   }
   a {
-    border-bottom: 1px dashed #c3073f;
-    color: #c3073f;
+    border-bottom: 1px dashed var(--redLight);;
+    color: var(--redLight);
     text-decoration: none;
     transition: opacity 0.5s;
     svg {
-      color: #feffff;
+      color: var(--white);
     }
     &:hover {
       opacity: 0.8;

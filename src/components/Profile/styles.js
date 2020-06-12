@@ -6,17 +6,17 @@ export const ProfileWrapper = styled.section`
 
 display: flex;
 flex-direction: column;
-color: white;
+color: var(--profileWrapper);
 margin-top: 2rem;
 `
 
 export const ProfileLink = styled(Link)`
-color: #FEFFFF;
+color: var(--profileLinkColor);
 text-decoration: none;
 transition: color 0.4s;
 
 &:hover {
-  color:#950740;
+  color:var(--profileLinkColorHover);
   filter: brightness(120%);
 }
 `

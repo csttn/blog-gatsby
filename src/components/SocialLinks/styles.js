@@ -15,18 +15,16 @@ export const SocialLinksList = styled.ul`
 export const SocialLinksItem = styled.li``
 
 export const SocialLinksLink = styled.a`
-  color: #c5c6c7;
+  color: var(--socialLinksColor);
   text-decoration: none;
   transition: color 0.3s;
 
   &:hover {
-    color: #c3073f;
+    color: var(--socialLinksColorHover);
   }
 `
 
 export const IconWrapper = styled.div`
-  fill: #bbb;
   width: 30px;
   height: 30px;
-
 `

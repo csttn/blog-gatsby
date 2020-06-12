@@ -15,7 +15,7 @@ export const CommentsWrapper = styled.section`
 `
 
 export const CommentsTitle = styled.h2`
-  color: #feffff;
+  color: var(--titleComment);
   font-size: 2.1rem;
   font-weight: 700;
   padding-bottom: 2rem;

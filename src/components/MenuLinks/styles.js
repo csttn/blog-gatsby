@@ -15,15 +15,15 @@ export const MenuLinksItem = styled.li`
 padding: 0.5rem 0;
 
 .active {
-  color: #c3073f;
+  color: var(--menuLinkActive);
 }
 `
 
 export const MenuLinksLink = styled(Link)`
-  color: #c5c6c7;
+color: var(--menuLinkColor);
 text-decoration: none;
 transition: color 0.3s;
 &:hover {
-    color: #c3073f;
+    color: var(--redLight);
   }
 `

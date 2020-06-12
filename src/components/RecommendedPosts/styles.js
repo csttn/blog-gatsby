@@ -13,20 +13,20 @@ export const RecommendedWrapper = styled.section`
 export const RecommendedLink = styled(Link)`
   align-items: center;
   justify-content: center;
-  color: #c3073f;
+  color: var(--recommendedLinkColor);
   display: flex;
   padding: 1rem;
   text-decoration: none;
   transition-property: background, border;
   transition-duration: 0.7s;
   width: 50%;
-  border: 1px solid #c3073f;
+  border: 1px solid var(--recommendedLinkBorderColor);
   margin: 0 20px;
   border-radius: 2rem;
 
   &:hover {
-    background: #c3073f;
-    color: #c5c6c7
+    background: var(--recommendedLinkHoverBackground);
+    color: var(--recommendedLinkHoverColor);
   }
   &.previous {
    
