@@ -7,7 +7,8 @@ module.exports = {
     title: `CSTTN - Blog`,
     description: `Estágiário na Certsign, faço parte do time de projetos e consultoria de T.I.`,
     author: `Cleyton Santana`,
-    position: `Full Stack Developer`
+    position: `Full Stack Developer`,
+    siteUrl: `https://github.com/csttn`
   },
   plugins: [
     `gatsby-plugin-styled-components`,
