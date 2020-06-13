@@ -3,6 +3,8 @@ import React from 'react'
 import algoliasearch from 'algoliasearch/lite';
 import { InstantSearch, SearchBox, Hits, Stats } from 'react-instantsearch-dom';
 
+
+
 import * as S from './styles';
 
 import Hit from './Hit'

@@ -104,8 +104,8 @@ body.light {
 --menuBarItem: var(--dark);
 --hoverMenuBarItem: var(--red);
 
---menuLinkColor: var(--red);
---menuLinkActive: var(--lightDark);
+--menuLinkColor: var(--lightDark);
+--menuLinkActive: var(--redLight);
 
 --paginationBorder:var(--redLight);
 --paginationColor: var(--red);

@@ -7,6 +7,7 @@ import { Lightbulb } from '@styled-icons/fa-regular/Lightbulb'
 import { GridAlt } from '@styled-icons/boxicons-regular/GridAlt'
 import { List } from '@styled-icons/material-rounded/List'
 
+import getThemeColor from '../../utils/getThemeColor'
 
 import * as S from './styles'
 
@@ -34,12 +35,20 @@ const MenuBar = () => {
         <S.MenuBarLink
           to="/"
           title="Voltar para Home"
+          cover
+          direction="right"
+          bg={getThemeColor()}
+          duration={0.6}
         >
           <S.MenuBarItem><Home size={23} /></S.MenuBarItem>
         </S.MenuBarLink>
         <S.MenuBarLink
           to="/search"
           title="Pesquisar"
+          cover
+          direction="right"
+          bg="#1A1A1D"
+          duration={0.6}
         >
           <S.MenuBarItem><SearchAlt size={23} /></S.MenuBarItem>
         </S.MenuBarLink>

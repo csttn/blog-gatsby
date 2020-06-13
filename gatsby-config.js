@@ -122,6 +122,7 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-remark-prismjs`,
+    `gatsby-plugin-transition-link`,
     {
       resolve: `gatsby-plugin-algolia-search`,
       options: {

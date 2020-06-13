@@ -1,7 +1,9 @@
 import React from 'react'
 import propTyps from 'prop-types'
-import { Link } from 'gatsby'
 
+import AniLink from "gatsby-plugin-transition-link/AniLink";
+
+import getThemeColor from '../../utils/getThemeColor'
 
 import { SkipNextCircle } from '@styled-icons/boxicons-regular/SkipNextCircle'
 import { SkipPreviousCircle } from '@styled-icons/boxicons-regular/SkipPreviousCircle'
@@ -15,17 +17,27 @@ const Pagination = ({ isFirst, isLast, currentPage, numPages, prevPage, nextPage
 
   <S.PaginationWrapper>
     {!isFirst &&
-      <Link to={prevPage}>
+      <AniLink to={prevPage}
+      cover
+      direction="right"
+      bg={getThemeColor()}
+      duration={0.6}
+      >
         <SkipPreviousCircle size={30} />
         <p>Página Anterior</p>
-      </Link>
+      </AniLink>
     }
     <p>Página {currentPage} de {numPages}</p>
     {!isLast &&
-      <Link to={nextPage}>
+      <AniLink to={nextPage}
+      cover
+      direction="left"
+      bg={getThemeColor()}
+      duration={0.6}
+      >
         <p> Próxima página</p>
         <SkipNextCircle size={30} />
-      </Link>
+      </AniLink>
     }
 
   </S.PaginationWrapper>
