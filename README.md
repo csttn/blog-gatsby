@@ -1,6 +1,6 @@
-# Controle de Despesas expensify
+# Blog Gatsby
 
-Blog  PWA criado utilizando gatsby, react e grapgQl com os fundamenros do curso do Willian Justen
+Blog PWA criado utilizando gatsby, react e grapgQl com os fundamentos do curso do Willian Justen
 
 ## Tecnologias utilizadas
 
