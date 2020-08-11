@@ -6,7 +6,7 @@ Blog PWA criado utilizando gatsby, react e grapgQl com os fundamentos do curso d
 
 * **React**
 * **Gatsby**
-* **GrapgQL**
+* **GraphQL**
 * **Webpack**
 * **Styled Components, Styled-media-query (responsividade)**
 * **Trabalhando com dados via Markdown**
